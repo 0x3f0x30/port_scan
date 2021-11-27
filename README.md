@@ -8,7 +8,7 @@ apt install git -y
 
 apt install python -y
 
-pip install sockets argparse
+pip install sockets argparse termcolor
 
 git clone https://github.com/BenjaminXN/port_scan.git
 
