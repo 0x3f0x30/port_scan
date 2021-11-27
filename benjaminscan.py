@@ -17,6 +17,7 @@ def main():
                   dest="port",
                   help="masukan port")
    inp = p.parse_args()
+   print()
 
    try:
        s.connect((inp.host,inp.port))
