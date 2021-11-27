@@ -2,7 +2,7 @@
 
 #untuk termux
 
-apt update && upgrade -y
+apt update 
 
 apt install git -y
 
