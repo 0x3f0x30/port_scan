@@ -1,5 +1,6 @@
 import socket
 import argparse
+from termcolor import colored
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
@@ -19,9 +20,9 @@ def main():
 
    try:
        s.connect((inp.host,inp.port))
-       print(f"[+] {inp.host}:{inp.port} terbuka")
+       print(colored(f"[+] {inp.host}:{inp.port} terbuka","green"))
    except:
-       print(f"[-] {inp.host}:{inp.port} tertutup")
+       print(colored(f"[-] {inp.host}:{inp.port} tertutup","red"))
 
    
 
