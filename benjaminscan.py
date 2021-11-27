@@ -4,7 +4,8 @@ import argparse
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
 def main():
-   p = argparse.ArgumentParser(description="single port scan")
+   p = argparse.ArgumentParser(description="single port scan",
+                               epilog="author : BenjaminDG")
    p.add_argument("--host",
                   type=str,
                   dest="host",
