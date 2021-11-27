@@ -19,9 +19,9 @@ def main():
 
    try:
        s.connect((inp.host,inp.port))
-       print(f"[+] {inp.host}:{inp.port} open")
+       print(f"[+] {inp.host}:{inp.port} terbuka")
    except:
-       print(f"[-] {inp.host}:{inp.port} close")
+       print(f"[-] {inp.host}:{inp.port} tertutup")
 
    
 
