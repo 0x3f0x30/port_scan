@@ -8,8 +8,6 @@ apt install python -y
 
 apt install pip3-python -y
 
-pip install socket
+pip install sockets argparse
 
-pip install argparse
-
-git clone 
+git clone https://github.com/BenjaminXN/port_scan.git
