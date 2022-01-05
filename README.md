@@ -1,6 +1,6 @@
 #sebelum pakai,lakukanlah ini
 
-#untuk termux/terminal linux
+#untuk termux
 
 apt update && apt upgrade -y
 
