@@ -1,8 +1,8 @@
 #sebelum pakai,lakukanlah ini
 
-#untuk termux
+#untuk termux/terminal linux
 
-apt update && apt upgrade
+apt update && apt upgrade -y
 
 apt install git python -y
 
