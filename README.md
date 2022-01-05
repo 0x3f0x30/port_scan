@@ -2,11 +2,9 @@
 
 #untuk termux
 
-apt update 
+apt update && apt upgrade
 
-apt install git -y
-
-apt install python -y
+apt install git python -y
 
 pip install sockets argparse termcolor
 
